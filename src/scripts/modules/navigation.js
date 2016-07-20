@@ -12,7 +12,7 @@ const Navigation = React.createClass({
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
-            <a className="navbar-brand" href="#">Your Brand Name</a>
+            <a className="navbar-brand" href="#">Brand Name</a>
           </div>
 
           <div className="collapse navbar-collapse" id="navbar-collapse-main">
@@ -22,7 +22,6 @@ const Navigation = React.createClass({
               <li><a href="#services">Services</a></li>
               <li><a href="#information">Information</a></li>
               <li><a href="#google_map">Contact</a></li>
-              <li><a href="https://www.script-tutorials.com/bootstrap-one-page-template-with-parallax-effect/">Back to tutorial</a></li>
             </ul>
           </div>
         </div>

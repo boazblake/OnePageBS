@@ -10,6 +10,7 @@ import Information from './views/information.js'
 import Contact from './views/contact.js'
 
 const app = function() {
+  //SMOOTH SCROLLING EFFECT
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -18,7 +19,7 @@ $(function() {
       if (target.length) {
         $('html, body').animate({
           scrollTop: target.offset().top
-        }, 1000);
+        }, 800);
         return false;
       }
     }
@@ -30,7 +31,6 @@ $(function() {
 class App extends React.Component {
   constructor(props) {
       super(props);
-
   }
 
   render(){
