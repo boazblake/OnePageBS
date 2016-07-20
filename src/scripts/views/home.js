@@ -5,8 +5,8 @@ export default class Home extends React.Component {
     return(
       <div id="home" className="home">
         <div className="text-vcenter">
-          <h1>Hello World</h1>
-          <h3>This is bootstrap-based layout</h3>
+          <h1>TITLE</h1>
+          <h3>SUB TITLE</h3>
           <a href="#about" className="btn btn-default btn-lg">Continue</a>
         </div>
       </div>

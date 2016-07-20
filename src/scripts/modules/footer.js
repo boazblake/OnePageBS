@@ -7,10 +7,10 @@ class Footer extends React.Component {
     let Boaz = "<BoazBlake/>"
 
     return(
-      <footer>
+      <footer id="footer">
         <hr />
         <div className="container">
-        <p className="text-right" >Copyright &copy; <span><a href="https://boazblake.github.io/portfolio">{Boaz}</a></span> 2016</p>
+        <p className="text-right" >Copyright &copy; <a href="https://boazblake.github.io/portfolio">{Boaz}, 2016</a></p>
         </div>
       </footer>
     )

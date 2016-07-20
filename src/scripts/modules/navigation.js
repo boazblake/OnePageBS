@@ -12,12 +12,11 @@ const Navigation = React.createClass({
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
-            <a className="navbar-brand" href="#">Brand Name</a>
+            <a className="navbar-brand" href="#home">Brand Name &/ LOGO</a>
           </div>
 
           <div className="collapse navbar-collapse" id="navbar-collapse-main">
             <ul className="nav navbar-nav navbar-right">
-              <li><a href="#home">Home</a></li>
               <li><a href="#about">About</a></li>
               <li><a href="#services">Services</a></li>
               <li><a href="#information">Information</a></li>
