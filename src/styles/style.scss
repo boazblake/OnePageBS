@@ -1,7 +1,10 @@
-* {
-	font-family: Helvetica, Arial, sans-serif;
-	box-sizing: border-box;
-}
+/* ============================================================================================== 
+This copyright notice must be kept untouched in the stylesheet at all times.
+The original version of this stylesheet and the associated (x)html 
+is available at http://www.script-tutorials.com/bootstrap-one-page-template-with-parallax-effect/
+Copyright (c) Script Tutorials. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any way to fit your requirements.
+================================================================================================= */
 
 /* general styles */
 html, body {
@@ -32,8 +35,9 @@ html, body {
 
 /* additional sections */
 #home {
-  background: url(https://static.pexels.com/photos/1660/art-creative-metal-creativity.jpg) no-repeat center center fixed; 
+  background: url(https://static.pexels.com/photos/1660/art-creative-metal-creativity.jpg) no-repeat center center fixed;
   display: table;
+  color:white;
   height: 100%;
   position: relative;
   width: 100%;
