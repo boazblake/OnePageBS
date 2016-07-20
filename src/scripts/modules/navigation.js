@@ -12,7 +12,7 @@ const Navigation = React.createClass({
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
-            <a className="navbar-brand" href="#home">Brand Name &/ LOGO</a>
+            <a className="navbar-brand" href="#home"><img id="navbar-logo" src="images/joshLogo.svg"/></a>
           </div>
 
           <div className="collapse navbar-collapse" id="navbar-collapse-main">

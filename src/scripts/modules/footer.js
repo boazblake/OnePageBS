@@ -10,7 +10,7 @@ class Footer extends React.Component {
       <footer id="footer">
         <hr />
         <div className="container">
-        <p className="text-right" >Copyright &copy; <a href="https://boazblake.github.io/portfolio">{Boaz}, 2016</a></p>
+        <p className="text-right" >Copyright &copy; <a href="https://boazblake.github.io/portfolio">{Boaz}</a>2016</p>
         </div>
       </footer>
     )
